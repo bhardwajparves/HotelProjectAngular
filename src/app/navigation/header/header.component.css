@@ -1,0 +1,12 @@
+.logo-container{
+    width: 100%;
+    
+}
+
+.logo{
+    width:150px;
+}
+
+mat-toolbar{
+    height: 80px;
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+body{
+background: url("/assets/images/bars.jpg"); 
+background-size: cover;
+    object-fit: cover;
+  
+}

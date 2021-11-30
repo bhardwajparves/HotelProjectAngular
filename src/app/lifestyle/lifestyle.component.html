@@ -1,0 +1,98 @@
+
+<div id="myCarousel" class="carousel slide carousel-fade"  data-bs-ride="carousel" data-keyboard="true" data-pause="hover">
+    <div class="carousel-inner">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+
+    <div class="carousel-item active" data-bs-interval="2000">
+        <div class="overlay-image" style="background-image:url(/assets/images/spa.jpg);"></div>
+        <div class="container">
+            <h1>SPA</h1>
+            <p>welcome to spa</p>
+            <button (click)=toogleTag()>
+                KNOW MORE</button>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000">
+        <div class="overlay-image" style="background-image:url(/assets/images/pool.jpg);"></div>
+        <div class="container">
+            <h1>Swimming Pool</h1>
+            <p>Enjoy</p>
+            <button (click)=toogleTag2()>
+                KNOW MORE</button>
+            
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="2000">
+        <div class="overlay-image" style="background-image:url(/assets/images/gym.jpeg);"></div>
+        <div class="container">
+            <h1>GYM</h1>
+            <p>Enjoy</p>
+            <button (click)=toogleTag3()>
+                KNOW MORE</button>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+        <div class="overlay-image" style="background-image:url(/assets/images/kidsclub.jpg);"></div>
+        <div class="container">
+            <h1>Kid's Club</h1>
+            <p>Enjoy</p>
+            <button (click)=toogleTag4()>
+                KNOW MORE</button>
+        </div>
+    </div>
+</div>
+
+
+<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+    <span class="sr-only">Previous</span>
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+    <span class="sr-only">Previous</span>
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+</div>
+<div *ngIf="show1" ><h3>
+    Experience alignment of the mind-body & spirit at the Ayurveda & Wellness Consultation offered in this Spa. 
+    Realize your unique constitution of Doshasor dynamic life forces and gain knowledge about your bodily imbalances.
+    <br><br>
+
+Our expert physician examines you and charts out an ideal diet, exercises and a series of experiences for your body type to bring balance,
+ energy and peace in your life. We offer natural treatments and endorse a healthy lifestyle close to Mother Earth. We promise a vibrant start 
+ for you towards health and wholesome wellness.
+</h3> </div>
+<div *ngIf="show2" > 
+    <div class="pool">
+    <h2>A refreshing dip in the clear swimming pool is what one needs to get energized on a sunny day. Enjoy a relaxing swim in the aquamarine stretch of water, with the company of a clear sky on a sunny day. Our lavishly adorned widest beach front swimming pool is a perfect spot for some fun time with friends or an inquisitive time with self. Experience a therapeutic swim in our expansive swimming pool at Natai Beach Resort & Spa, Thailand. Get relaxed, refreshed and reenergized at the finest Thailand Resort.</h2>
+</div></div>
+<div *ngIf="show3" ><div class="gym"> <h2>PUSH YOUR LIMITS FORWARD</h2>
+<h3>Maintain your fitness routine on a vacation with our well-equipped gym</h3>
+<h4>Use the benefits of our fitness partners and enjoy a great workout in the hotel fitness facility.</h4>
+<div class="col-container">
+    
+      <div class="col">
+       <h4> 24-Hour Fitness Facility</h4>
+      </div>
+      <div class="col"><h4>
+        Expert Coaches</h4>
+      </div>
+      <div class="col"><h4>Free Diet Advices</h4>
+      </div>
+  </div>
+
+</div>
+
+</div>
+<div *ngIf="show4" > <h3>Kids have their own definition of fun. To help them have the best time during the vacation,we have a special center dedicated
+     to them alone. From attractive toys and board games to some fun activities,
+      the little ones will never run out of things to do at our resort. Their curiosity is built and satiated with our unique 
+      recreational activities. Let your little ones explore and enjoy a variety of things to do at our resort in GOA.</h3></div>
+
